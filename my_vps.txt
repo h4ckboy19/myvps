@@ -1,0 +1,8 @@
+ git clone https://github.com/projectdiscovery/httpx.git; cd httpx/cmd/httpx; go build; mv httpx /usr/local/bin/; cd; git clone https://github.com/projectdiscovery/subfinder.git; cd subfinder/v2/cmd/subfinder; go build; mv subfinder /usr/local/bin/; cd;  git clone https://github.com/projectdiscovery/nuclei.git; cd nuclei/v2/cmd/nuclei/; go build; mv nuclei /usr/local/bin/; cd; nuclei --update-templates; git clone https://github.com/Bo0oM/fuzz.txt.git | git clone https://github.com/random-robbie/bruteforce-lists.git | https://github.com/danielmiessler/SecLists.git | git clone https://github.com/Bo0oM/fuzz.txt.git | GO111MODULE=on go get -u -v github.com/lc/gau
+
+
+
+
+
+
+ dirsearch -e php,asp,aspx,jsp,py,txt,conf,config,bak,backup,swp,old,db,sqlasp,aspx,aspx~,asp~,py,py~,rb,rb~,php,php~,bak,bkp,cache,cgi,conf,csv,html,inc,jar,js,json,jsp,jsp~,lock,log,rar,old,sql,sql.gz,sql.zip,sql.tar.gz,sql~,swp,swp~,tar,tar.bz2,tar.gz,txt,wadl,zip -l dom.txt -i 200 -t 3000
